@@ -4,11 +4,11 @@ Python for Science
 
 List of Packages:
 
+- XGBoost
 - Scikit Learn
 - Numpy
 - Scipy
-- XGBoost
-- BeautifulSoup
+- BeautifulSoup4
 - GenSim
 - Requests
 
