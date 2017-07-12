@@ -2,8 +2,6 @@ version: '3'
 services:
     python-for-science:
         container_name: python-for-science
-        build:
-            context: .
-            dockerfile: python.Dockerfile
+        build: .
         image: python-for-science:1.0.0
         network_mode: "host"
