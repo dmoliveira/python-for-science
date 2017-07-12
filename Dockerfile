@@ -20,6 +20,6 @@ RUN pip3 install -U xgboost
 RUN pip3 install -U graphviz
 RUN pip3 install -U beautifulsoup4
 RUN pip3 install -U logbook
-RUN pip3 install -U jupyter
+RUN pip3 install -U jupyter notebook
 
 ENTRYPOINT while true; do echo "Running Python for Science Container..."; sleep 60; done
